@@ -1,0 +1,283 @@
+/* Cabecário */
+header {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: 50px;
+    width: 1326px;
+    background: green;
+    transform: translate(-25px, -10px);
+    position: fixed;
+}
+
+.logo {
+    height: 63px;
+    width: 200px;
+    transform: translate(20px, -5px);
+    cursor: pointer;
+}
+
+.pesquisas {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(250px, -50px);
+}
+
+a {
+    position: relative;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(61, 61, 61);
+}
+
+
+/* Corpo */
+body {
+    background-image: url(1b88ccbc-17fd-4d58-bc1d-7befe73c1cbd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.t-home-1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.t-home-2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+}
+
+.hist-button, .ch-button, .as-button, .person-button, .conquis-button, .curio-button {
+    border: 10px solid yellow;
+    border-radius: 10px;
+    height: 207px;
+    width: 207px;
+    transform: translateX(30px);
+}
+
+.hist-button:hover, .ch-button:hover, .as-button:hover, .person-button:hover, .conquis-button:hover, .curio-button:hover {
+    height: 217px;
+    width: 217px;
+}
+
+.end-titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+.end-1 {
+    color: red;
+    background: rgb(92, 4, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.end-2 {
+    color: yellow;
+    background: rgb(92, 92, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.end-3 {
+    color: green;
+    background: rgb(9, 92, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.person-h {
+    text-align: center;
+    font-size: 50px;
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6, .a7 {
+    border: 5px solid yellow;
+    height: 200px;
+    width: 200px;
+}
+
+.a8 {
+    border: 5px solid yellow;
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(66, 66, 66);
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nada1, .nada2, .nada3, .nada4, .nada5, .nada6 {
+    display: none;
+}
+
+b {
+    color: black;
+}
+
+.h-titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+.h-texto {
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(92, 92, 1)
+}
+
+.ch-h {
+    text-align: center;
+    font-size: 50px;
+}
+
+.ch-p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(92, 92, 1)
+}
+
+.casas {
+    transform: translateX(450px);
+}
+
+.conquis-h {
+    text-align: center;
+    font-size: 50px;
+}
+
+.conquis-p1, .conquis-p2 {
+    text-align: justify;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.person-lista1 {
+    color: white;
+}
+
+.as-h {
+    text-align: center;
+    font-size: 50px;
+}
+
+.as-p {
+    text-align: justify;
+    color: yellow;
+    background: rgb(92, 92, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.as-lista {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.platinum {
+    text-align: center;
+    color: rgb(37, 37, 255);
+}
+
+.gold {
+    text-align: center;
+}
+
+.silver {
+    text-align: center;
+    color: gray;
+}
+
+.bronze {
+    text-align: center;
+    color: rgb(66, 32, 0);
+}
+
+.conquis-1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: double;
+    width: 180px;
+    color: yellow;
+    transform: translateX(530px)
+}
+
+.conquis-2 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: double;
+    width: 350px;
+    color: yellow;
+    transform: translateX(440px)
+}
+
+.conquis-3 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: double;
+    color: yellow;
+}
+
+.conquis-4 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: double;
+    color: yellow;
+}
+
+/* Rodapé */
+footer {
+    margin: 0;
+    padding: 0;
+    background: green;
+    height: 300px;
+    width: 1400;
+    color: white;
+}
+
+.participantes {
+    position: absolute;
+    transform: translateX(555px);
+}
+
+.rodape-img {
+    position: absolute;
+    transform: translateX(-25px);
+}
+
+.parti {
+    position: absolute;
+    transform: translate(550px, 40px);
+    cursor: pointer;
+}
+
+.final-texto {
+    color: gray;
+    position: absolute;
+    transform: translateY(284px);
+}
+
+.ifsp-img {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    transform: translate(205px ,285px);
+}
+
+.redes-sociais {
+    width: 200px;
+    transform: translateX(870px);
+}
+
+.discord, .youtube, .facebook, .twitter, .instagram, .tiktok {
+    height: 50px;
+    width: 50px;
+    transform: translateX(800px);
+    cursor: pointer;
+}
